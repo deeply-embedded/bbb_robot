@@ -24,7 +24,7 @@ void writeToPinP9_12(int value) {
 	volatile unsigned int *gpio_addr = NULL;
 	int fd = open("/dev/mem", O_RDWR);
 
-// Speicherereich f�r GPIO1 Controller mappen
+// Speicherereich fuer GPIO1 Controller mappen
 	gpio_addr = (unsigned int *) mmap(0, GPIO1_SIZE, (PROT_READ | PROT_WRITE),
 	MAP_SHARED, fd, GPIO1_START_ADDR);
 
