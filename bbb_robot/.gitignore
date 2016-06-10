@@ -1,4 +1,12 @@
-/Debug/
 
-*.cproject
-*.project
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+
+.cproject
+.project
+
+language.settings.xml
+
+/Debug/
